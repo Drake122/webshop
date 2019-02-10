@@ -2,7 +2,7 @@
 
 
     function apiService($http, $window) {
-        var urlBase = 'http://localhost:1337';
+        var urlBase = 'skovacs.ddns.net:1337';
 
         if ($window.urlBase) {
             urlBase = $window.urlBase;
